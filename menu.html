@@ -1,0 +1,411 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore Brew Haven's complete menu featuring premium coffee, specialty drinks, fresh pastries, and light meals.">
+    <meta name="keywords" content="coffee menu, specialty drinks, pastries, light meals, espresso, latte, brew haven">
+    <title>Menu - Brew Haven Coffee Shop</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div class="header-content">
+                <a href="index.html" class="logo">Brew Haven</a>
+                <nav>
+                    <button class="menu-toggle" onclick="toggleMenu()">☰</button>
+                    <ul id="nav-menu">
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="menu.html">Menu</a></li>
+                        <li><a href="contact.html">Location & Hours</a></li>
+                        <li><a href="events.html">Events</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <div class="container">
+            <!-- Page Header -->
+            <section class="text-center mb-2">
+                <h1>Our Menu</h1>
+                <p class="text-brown">Discover our carefully crafted selection of premium coffee, fresh pastries, and delicious light meals</p>
+            </section>
+
+            <!-- Featured Special -->
+            <section class="mb-2">
+                <div class="card text-center">
+                    <img src="images/latte-art.jpg" alt="Beautiful latte art in a ceramic cup" class="content-image" style="max-width: 400px; margin: 0 auto 1rem;">
+                    <h2 class="text-brown">Today's Special</h2>
+                    <h3>Seasonal Pumpkin Spice Latte</h3>
+                    <p>Our signature espresso blend with steamed milk, real pumpkin puree, and a perfect blend of warm spices. Topped with whipped cream and a dash of cinnamon.</p>
+                    <p class="highlight"><strong>Limited Time - $5.25</strong></p>
+                </div>
+            </section>
+
+            <!-- Coffee Menu -->
+            <section class="menu-category">
+                <h2>☕ Coffee & Espresso</h2>
+                
+                <div class="text-center mb-2">
+                    <img src="images/coffee-beans.jpg" alt="Premium coffee beans ready for brewing" class="content-image" style="max-width: 500px; margin: 0 auto;">
+                    <p class="text-brown"><em>We source the finest beans from sustainable farms worldwide</em></p>
+                </div>
+                
+                <div class="card">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>House Blend Drip Coffee</h3>
+                            <p class="menu-item-description">Our signature medium roast blend with notes of chocolate and nuts. Smooth and balanced.</p>
+                        </div>
+                        <div class="menu-item-price">$2.50</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Single Origin Pour Over ⭐</h3>
+                            <p class="menu-item-description">Rotating selection of premium single-origin beans. Ask your barista about today's featured origin.</p>
+                        </div>
+                        <div class="menu-item-price">$4.75</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Cold Brew</h3>
+                            <p class="menu-item-description">Smooth, rich coffee steeped for 24 hours. Served over ice or with your choice of milk.</p>
+                        </div>
+                        <div class="menu-item-price">$3.75</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Espresso</h3>
+                            <p class="menu-item-description">Rich, concentrated coffee shot with a perfect crema. The foundation of all our milk-based drinks.</p>
+                        </div>
+                        <div class="menu-item-price">$2.25</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Americano</h3>
+                            <p class="menu-item-description">Espresso shots topped with hot water for a clean, strong coffee experience.</p>
+                        </div>
+                        <div class="menu-item-price">$3.25</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Specialty Drinks -->
+            <section class="menu-category">
+                <h2>🥛 Specialty Drinks</h2>
+                
+                <div class="text-center mb-2">
+                    <img src="images/menu-items/cappuccino.jpg" alt="Perfect cappuccino with beautiful foam art" class="content-image" style="max-width: 400px; margin: 0 auto;">
+                    <p class="text-brown"><em>Expertly crafted by our skilled baristas</em></p>
+                </div>
+                
+                <div class="card">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Cappuccino ⭐</h3>
+                            <p class="menu-item-description">Perfect balance of espresso, steamed milk, and velvety foam. A classic Italian favorite.</p>
+                        </div>
+                        <div class="menu-item-price">$4.25</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Latte</h3>
+                            <p class="menu-item-description">Smooth espresso with steamed milk and a light layer of foam. Available with artistic latte art.</p>
+                        </div>
+                        <div class="menu-item-price">$4.75</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Flat White</h3>
+                            <p class="menu-item-description">Double shot of espresso with microfoam steamed milk. Strong coffee flavor with creamy texture.</p>
+                        </div>
+                        <div class="menu-item-price">$4.50</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Macchiato</h3>
+                            <p class="menu-item-description">Espresso "marked" with a dollop of steamed milk foam. Bold and intense.</p>
+                        </div>
+                        <div class="menu-item-price">$3.75</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Mocha</h3>
+                            <p class="menu-item-description">Rich espresso combined with premium chocolate syrup, steamed milk, and whipped cream.</p>
+                        </div>
+                        <div class="menu-item-price">$5.25</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Caramel Macchiato</h3>
+                            <p class="menu-item-description">Vanilla-flavored steamed milk with espresso and a crosshatch of caramel sauce.</p>
+                        </div>
+                        <div class="menu-item-price">$5.50</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Tea Selection -->
+            <section class="menu-category">
+                <h2>🍃 Tea & Alternative Beverages</h2>
+                
+                <div class="text-center mb-2">
+                    <img src="images/tea-selection.jpg" alt="Selection of premium teas and alternative beverages" class="content-image" style="max-width: 400px; margin: 0 auto;">
+                    <p class="text-brown"><em>Premium loose leaf teas and specialty beverages</em></p>
+                </div>
+                
+                <div class="card">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Premium Loose Leaf Tea</h3>
+                            <p class="menu-item-description">Selection includes Earl Grey, Green Tea, Chamomile, and seasonal blends.</p>
+                        </div>
+                        <div class="menu-item-price">$3.25</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Chai Latte ⭐</h3>
+                            <p class="menu-item-description">Spiced tea concentrate with steamed milk and a hint of vanilla. Warming and aromatic.</p>
+                        </div>
+                        <div class="menu-item-price">$4.50</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Matcha Latte</h3>
+                            <p class="menu-item-description">Premium Japanese matcha powder whisked with steamed milk for a creamy, antioxidant-rich drink.</p>
+                        </div>
+                        <div class="menu-item-price">$4.75</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Hot Chocolate</h3>
+                            <p class="menu-item-description">Rich, creamy hot chocolate made with premium cocoa and topped with whipped cream.</p>
+                        </div>
+                        <div class="menu-item-price">$3.75</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Golden Milk Latte</h3>
+                            <p class="menu-item-description">Turmeric, ginger, and warming spices blended with your choice of milk. Caffeine-free and healing.</p>
+                        </div>
+                        <div class="menu-item-price">$4.25</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Pastries & Baked Goods -->
+            <section class="menu-category">
+                <h2>🥐 Fresh Pastries & Baked Goods</h2>
+                
+                <div class="text-center mb-2">
+                    <img src="images/pastries.jpg" alt="Fresh baked pastries and croissants" class="content-image" style="max-width: 500px; margin: 0 auto;">
+                    <p class="text-brown"><em>Freshly baked daily in our kitchen using premium ingredients</em></p>
+                </div>
+                
+                <div class="card">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Butter Croissant ⭐</h3>
+                            <p class="menu-item-description">Flaky, buttery French-style croissant baked fresh daily. Perfect with your morning coffee.</p>
+                        </div>
+                        <div class="menu-item-price">$3.25</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Chocolate Croissant</h3>
+                            <p class="menu-item-description">Classic pain au chocolat with rich dark chocolate batons inside buttery pastry.</p>
+                        </div>
+                        <div class="menu-item-price">$3.75</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Blueberry Muffin</h3>
+                            <p class="menu-item-description">Moist, tender muffin bursting with fresh blueberries and topped with a light sugar crumble.</p>
+                        </div>
+                        <div class="menu-item-price">$2.95</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Banana Bread</h3>
+                            <p class="menu-item-description">Homemade banana bread with walnuts, perfectly spiced and incredibly moist.</p>
+                        </div>
+                        <div class="menu-item-price">$3.50</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Seasonal Scone</h3>
+                            <p class="menu-item-description">Rotating seasonal flavors including cranberry orange, lemon, and pumpkin spice.</p>
+                        </div>
+                        <div class="menu-item-price">$3.25</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Cinnamon Roll</h3>
+                            <p class="menu-item-description">Warm, gooey cinnamon roll with cream cheese frosting. Available weekend mornings.</p>
+                        </div>
+                        <div class="menu-item-price">$4.50</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Light Meals -->
+            <section class="menu-category">
+                <h2>🥪 Light Meals & Sandwiches</h2>
+                
+                <div class="text-center mb-2">
+                    <img src="images/sandwiches.jpg" alt="Fresh sandwiches and light meals" class="content-image" style="max-width: 400px; margin: 0 auto;">
+                    <p class="text-brown"><em>Fresh, healthy options made to order</em></p>
+                </div>
+                
+                <div class="card">
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Avocado Toast ⭐</h3>
+                            <p class="menu-item-description">Smashed avocado on artisan sourdough with cherry tomatoes, everything seasoning, and lemon drizzle.</p>
+                        </div>
+                        <div class="menu-item-price">$8.50</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Breakfast Sandwich</h3>
+                            <p class="menu-item-description">Farm-fresh egg, aged cheddar, and your choice of bacon or sausage on a toasted English muffin.</p>
+                        </div>
+                        <div class="menu-item-price">$7.25</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Turkey & Swiss Panini</h3>
+                            <p class="menu-item-description">Sliced turkey, Swiss cheese, spinach, and cranberry spread on grilled ciabatta bread.</p>
+                        </div>
+                        <div class="menu-item-price">$9.75</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Caprese Sandwich</h3>
+                            <p class="menu-item-description">Fresh mozzarella, tomatoes, basil, and balsamic glaze on artisan focaccia.</p>
+                        </div>
+                        <div class="menu-item-price">$8.95</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Greek Yogurt Parfait</h3>
+                            <p class="menu-item-description">Creamy Greek yogurt layered with granola, fresh berries, and a drizzle of local honey.</p>
+                        </div>
+                        <div class="menu-item-price">$6.50</div>
+                    </div>
+                    
+                    <div class="menu-item">
+                        <div class="menu-item-info">
+                            <h3>Seasonal Soup</h3>
+                            <p class="menu-item-description">Chef's daily soup served with artisan bread. Ask about today's selection.</p>
+                        </div>
+                        <div class="menu-item-price">$5.95</div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Extras & Add-ons -->
+            <section class="menu-category">
+                <h2>➕ Extras & Customizations</h2>
+                <div class="card">
+                    <p><strong>Milk Alternatives:</strong> Oat milk (+$0.65), Almond milk (+$0.55), Soy milk (+$0.55), Coconut milk (+$0.55)</p>
+                    <p><strong>Extra Shots:</strong> Additional espresso shot (+$0.75)</p>
+                    <p><strong>Syrups:</strong> Vanilla, Caramel, Hazelnut, Sugar-free options available (+$0.55)</p>
+                    <p><strong>Decaf:</strong> Available for all espresso-based drinks (no charge)</p>
+                    <p><strong>Size Upgrades:</strong> Large (+$0.50), Extra Large (+$0.85)</p>
+                </div>
+            </section>
+
+            <!-- Popular Items Note -->
+            <section class="text-center mb-2">
+                <div class="card">
+                    <h2 class="text-brown">Popular Items ⭐</h2>
+                    <p>Look for the star (⭐) next to our most popular menu items - these are customer favorites and barista recommendations!</p>
+                    <p><strong>Not sure what to order?</strong> Ask any of our friendly baristas for a personalized recommendation based on your taste preferences.</p>
+                </div>
+            </section>
+
+            <!-- Call to Action -->
+            <section class="text-center">
+                <h2>Ready to Order?</h2>
+                <p>Visit us today to experience these delicious offerings fresh from our kitchen and expertly crafted by our baristas.</p>
+                <a href="contact.html" class="btn">Find Our Location</a>
+                <a href="events.html" class="btn btn-outline">Check Daily Specials</a>
+            </section>
+        </div>
+    </main>
+
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Contact Info</h3>
+                    <p>📞 (555) 123-BREW</p>
+                    <p>✉️ hello@brewhaven.com</p>
+                    <p>📍 123 Main Street, Your City</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Hours</h3>
+                    <p>Mon-Fri: 6:00 AM - 8:00 PM</p>
+                    <p>Sat-Sun: 7:00 AM - 9:00 PM</p>
+                </div>
+                
+                <div class="footer-section">
+                    <h3>Follow Us</h3>
+                    <p>Stay connected for updates on new blends, events, and special offers.</p>
+                    <p>
+                        <a href="#">Facebook</a> | 
+                        <a href="#">Instagram</a> | 
+                        <a href="#">Twitter</a>
+                    </p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2025 Brew Haven Coffee Shop. All rights reserved. | Crafted with ❤️ for coffee lovers</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        function toggleMenu() {
+            const navMenu = document.getElementById('nav-menu');
+            navMenu.classList.toggle('active');
+        }
+
+        // Close mobile menu when clicking on a link
+        document.querySelectorAll('nav a').forEach(link => {
+            link.addEventListener('click', () => {
+                document.getElementById('nav-menu').classList.remove('active');
+            });
+        });
+    </script>
+</body>
+</html>
